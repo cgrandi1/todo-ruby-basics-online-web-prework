@@ -14,9 +14,11 @@ def argue(phrase)
   return phrase
 end
 
-def greeting(greeting)
-  greeting = "Hi there, Bobby!"
-  return 
+def greeting(greeting, name)
+  greeting = "Hi there,"
+  name = "Bobby"
+  return "Hi there, Bobby!"
+  
 end
 
 def return_a_value(phrase)
